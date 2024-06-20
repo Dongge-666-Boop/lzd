@@ -6,14 +6,14 @@ spring:
   cloud:
     bus:
       trace:
-        enable: true
+       enable: true
     config:
       server:
         git:
-          uri: https://github.com/PengZiSu/Delivery_system.git #git仓库地址
-          searchPaths: config #仓库路径
-          username: PengZiSu #git仓库用户名
-          password: wqwq98765dzx #git仓库密码
+          uri: https://github.com/Dongge-666-Boop/lzd.git #git仓库地址
+          searchPaths: config #仓库路径cls
+          username: Dongge-666-Boop #git仓库用户名
+          password: lzd13712917183 #git仓库密码
       label: master #仓库的分支
 eureka:
   client:

@@ -6,6 +6,7 @@ spring:
       discovery:
         enabled: true
         serviceId: configserver #连接的配置中心名称
+
 eureka:
   client:
     serviceUrl:

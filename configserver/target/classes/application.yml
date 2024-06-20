@@ -6,12 +6,12 @@ spring:
   cloud:
     bus:
       trace:
-        enable: true
+       enable: true
     config:
       server:
         git:
           uri: https://github.com/PengZiSu/Delivery_system.git #git仓库地址
-          searchPaths: config #仓库路径
+          searchPaths: config #仓库路径cls
           username: PengZiSu #git仓库用户名
           password: wqwq98765dzx #git仓库密码
       label: master #仓库的分支
