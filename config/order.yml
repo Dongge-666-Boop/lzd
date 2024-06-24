@@ -5,7 +5,7 @@ spring:
     name: order
   datasource:
     name: ordering_meals
-    url: jdbc:mysql://localhost:3306/mybatis?useSSL=false?ordering_meals?useUnicode=true&characterEncoding=UTF-8?
+    url: jdbc:mysql://localhost:3306/mybatis?useSSL=false?ordering_meals?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: lzd13712917183
 eureka:
