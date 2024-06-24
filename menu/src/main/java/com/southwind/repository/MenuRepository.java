@@ -9,6 +9,16 @@ public interface MenuRepository {
     public int count();
     public void save(Menu menu);
     public Menu findById(long id);
+
+    /**
+     * 修改菜品
+     * @param menu
+     */
     public void update(Menu menu);
+
+    /**
+     * 删除菜品
+     * @param id
+     */
     public void deleteById(long id);
 }

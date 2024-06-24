@@ -14,6 +14,10 @@ public class OrderHandler {
     @Autowired
     private OrderRepository orderRepository;
 
+    /**
+     * 修改订单
+     * @param order
+     */
     @PostMapping("/save")
     public void save(@RequestBody Order order){
         orderRepository.save(order);

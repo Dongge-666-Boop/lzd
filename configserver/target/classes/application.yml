@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8889
 spring:
   application:
     name: configserver
@@ -10,10 +10,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/PengZiSu/Delivery_system.git #git仓库地址
+          uri: https://github.com/Dongge-666-Boop/lzd.git #git仓库地址
           searchPaths: config #仓库路径cls
-          username: PengZiSu #git仓库用户名
-          password: wqwq98765dzx #git仓库密码
+          username: Dongge-666-Boop #git仓库用户名
+          password: lzd13712917183 #git仓库密码
       label: master #仓库的分支
 eureka:
   client:
